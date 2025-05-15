@@ -1,0 +1,50 @@
+@use '../../../color-variables.scss' as *;
+
+.form-background {
+    background-color: $background-secondary;
+}
+.form-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 120px;
+    gap: 115px;
+    .text {
+        flex: 1;
+        h3 {
+            font-size: 36px;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 20px;
+        }
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+            color: white;
+        }
+    }
+    form {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        gap: 20px;
+        input {
+            background: none;
+            border: none;
+            border-bottom: 1px solid white;
+            width: 100%;
+            height: 40px;
+            margin-bottom: 20px;
+        }
+        label {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+            color: white;
+        }
+    }
+}

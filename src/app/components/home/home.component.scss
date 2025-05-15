@@ -1,0 +1,56 @@
+@use '../../../color-variables.scss' as *;
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    span {
+        font-size: 20px;
+        font-weight: 700;
+        color: $secondary-text;
+    }
+
+    h1 {
+        font-size: 72px;
+        font-weight: 900;
+        color: $primary-text;
+    }
+}
+
+.benefit-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    gap: 70px;
+    p {
+        font-size: 40px;
+        font-style: italic;
+        font-weight: 500;
+        b {
+            background: -webkit-linear-gradient(180deg,$primary-color, $light-primary-color);
+            background: linear-gradient(45deg, $primary-color, $light-primary-color);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+            font-style: normal;
+        }
+    }
+    .benefit-data {
+        border-bottom: 10px solid $secondary-color;
+        padding-bottom: 40px;
+        h2 {
+            font-size: 60px;
+            font-weight: 600;
+            color: $primary-text;
+        }
+    }
+}
+
+.cta-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
