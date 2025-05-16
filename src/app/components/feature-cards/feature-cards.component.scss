@@ -1,0 +1,24 @@
+.feature-component {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    gap: 40px;
+    .feature-card {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        h4 {
+            font-size: 32px;
+            font-weight: 600;
+            width: 500px;
+            padding: 20px 0;
+        }
+        p {
+            width: 500px;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+        }
+    }
+}
+

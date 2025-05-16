@@ -14,12 +14,16 @@
                 ut diam condimentum, vel euismod erat placerat. In iaculis 
                 arcu eros, eget temp</p>
         </div>
-        <form>
+        <form [formGroup]="newsletterform">
             <label for="name">Name</label>
-            <input id="name" type="text" />
+            <input id="name" type="text" formControlName="name" />
             <label for="email">Email</label>
-            <input id="email" type="email" />
-            <btn-primary variant="secondary"  btn-text="Se Inscreva"></btn-primary>
+            <input id="email" type="email" formControlName="email" />
+            <btn-primary
+                variant="secondary"
+                btn-text="Se Inscreva"
+                [disabled]="newsletterform.invalid"
+            ></btn-primary>
         </form>
     </div>
 </section>
