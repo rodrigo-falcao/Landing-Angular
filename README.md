@@ -56,3 +56,7 @@ Este projeto foi desenvolvido com base nos ensinamentos da aula disponível no Y
 🔹 Projeto criado para aprendizado e prática! 🚀 Sinta-se à vontade para contribuir ou sugerir melhorias. 😊
 
 ## 📸 Screenshots
+<p align="center">
+  <img src='https://github.com/user-attachments/assets/d56abdb7-1b12-4c80-86d8-0f2a0fff0fff'  alt="Imagem Projeto" width="400" />
+</p>
+
